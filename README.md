@@ -3,19 +3,10 @@
 A curated collection of papers, datasets, and resources on Scientific Datasets and Large Language Models (LLMs), organized in reference to our survey: [**"A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"**]()
 
 
-> [!WARNING]
 > If you spot any mistakes or have suggestions, feel free to reach out by email: huming@pjlab.org.cn
 >
 > (We also recommend CC’ing machenglong@pjlab.org.cn and litianbin@pjlab.org.cn in case of any unsuccessful delivery issue.)
 
-
-## 📖 Citation
-If you find this repository or our survey helpful in your research, please kindly cite our paper:
-```
-@article{ScientificLLMSurvey,
-    title={A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers},
-}
-```
 
 ## 📈 Trends in Scientific LLM Publications
 ![arxiv_llms](assets/trend.png)
