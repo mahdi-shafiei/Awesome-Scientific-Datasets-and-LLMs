@@ -1,6 +1,6 @@
 # Awesome-Scientific-Datasets-and-LLMs
 
-A curated collection of papers, datasets, and resources on Scientific Datasets and Large Language Models (LLMs), organized in reference to our survey: [**"A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"**]()
+A curated collection of papers, datasets, and resources on Scientific Datasets and Large Language Models (LLMs), organized in reference to our survey: [**"A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"**](./survey_paper.pdf)
 
 
 > If you spot any mistakes or have suggestions, feel free to reach out by email: huming@pjlab.org.cn
