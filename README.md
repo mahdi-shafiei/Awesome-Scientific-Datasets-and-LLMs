@@ -5,7 +5,7 @@ A curated collection of papers, datasets, and resources on Scientific Datasets a
 
 > If you spot any mistakes or have suggestions, feel free to reach out by email: huming@pjlab.org.cn
 >
-> (We also recommend CC’ing machenglong@pjlab.org.cn and litianbin@pjlab.org.cn in case of any unsuccessful delivery issue.)
+> (We also recommend CC’ing clma24@m.fudan.edu.cn and litianbin@pjlab.org.cn in case of any unsuccessful delivery issue.)
 
 
 ## 📈 Trends in Scientific LLM Publications
