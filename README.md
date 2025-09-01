@@ -1,12 +1,25 @@
 # Awesome-Scientific-Datasets-and-LLMs
 
-A curated collection of papers, datasets, and resources on Scientific Datasets and Large Language Models (LLMs), organized in reference to our survey: [**"A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"**](./survey_paper.pdf)
+A curated collection of papers, datasets, and resources on Scientific Datasets and Large Language Models (LLMs), organized in reference to our survey: [**"A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers"**](https://arxiv.org/abs/2508.21148)
 
 
 > If you spot any mistakes or have suggestions, feel free to reach out by email: huming@pjlab.org.cn
 >
 > (We also recommend CC’ing clma24@m.fudan.edu.cn and litianbin@pjlab.org.cn in case of any unsuccessful delivery issue.)
 
+## 📖 Citation
+If you find this repository or our survey helpful in your research, please kindly cite our paper:
+```
+@misc{hu2025surveyscientificlargelanguage,
+      title={A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers}, 
+      author={Ming Hu and Chenglong Ma and Wei Li and Wanghan Xu and Jiamin Wu and Jucheng Hu and Tianbin Li and Guohang Zhuang and Jiaqi Liu and Yingzhou Lu and Ying Chen and Chaoyang Zhang and Cheng Tan and Jie Ying and Guocheng Wu and Shujian Gao and Pengcheng Chen and Jiashi Lin and Haitao Wu and Lulu Chen and Fengxiang Wang and Yuanyuan Zhang and Xiangyu Zhao and Feilong Tang and Encheng Su and Junzhi Ning and Xinyao Liu and Ye Du and Changkai Ji and Cheng Tang and Huihui Xu and Ziyang Chen and Ziyan Huang and Jiyao Liu and Pengfei Jiang and Yizhou Wang and Chen Tang and Jianyu Wu and Yuchen Ren and Siyuan Yan and Zhonghua Wang and Zhongxing Xu and Shiyan Su and Shangquan Sun and Runkai Zhao and Zhisheng Zhang and Yu Liu and Fudi Wang and Yuanfeng Ji and Yanzhou Su and Hongming Shan and Chunmei Feng and Jiahao Xu and Jiangtao Yan and Wenhao Tang and Diping Song and Lihao Liu and Yanyan Huang and Lequan Yu and Bin Fu and Shujun Wang and Xiaomeng Li and Xiaowei Hu and Yun Gu and Ben Fei and Zhongying Deng and Benyou Wang and Yuewen Cao and Minjie Shen and Haodong Duan and Jie Xu and Yirong Chen and Fang Yan and Hongxia Hao and Jielan Li and Jiajun Du and Yanbo Wang and Imran Razzak and Chi Zhang and Lijun Wu and Conghui He and Zhaohui Lu and Jinhai Huang and Yihao Liu and Fenghua Ling and Yuqiang Li and Aoran Wang and Qihao Zheng and Nanqing Dong and Tianfan Fu and Dongzhan Zhou and Yan Lu and Wenlong Zhang and Jin Ye and Jianfei Cai and Wanli Ouyang and Yu Qiao and Zongyuan Ge and Shixiang Tang and Junjun He and Chunfeng Song and Lei Bai and Bowen Zhou},
+      year={2025},
+      eprint={2508.21148},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.21148}, 
+}
+```
 
 ## 📈 Trends in Scientific LLM Publications
 ![arxiv_llms](assets/trend.png)
