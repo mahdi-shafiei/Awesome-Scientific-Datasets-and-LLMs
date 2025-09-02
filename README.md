@@ -6,6 +6,8 @@ A curated collection of papers, datasets, and resources on Scientific Datasets a
 > If you spot any mistakes or have suggestions, feel free to reach out by email: huming@pjlab.org.cn
 >
 > (We also recommend CC’ing clma24@m.fudan.edu.cn and litianbin@pjlab.org.cn in case of any unsuccessful delivery issue.)
+>
+> If you find our survey useful for your research, please cite the following paper:
 
 ## 📖 Citation
 If you find this repository or our survey helpful in your research, please kindly cite our paper:
@@ -79,7 +81,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 ## 🧪 Scientific Pretraining, SFT, Reasoning, and Agent Datasets
 ### 🧬 Life Sciences
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [MIRAGE ](https://arxiv.org/abs/2506.20100) | Agriculture | Biological entity photos | SFT | VQA (multi-image) | 2025.06 | EN | Scientific databases | Semi-automated | N/A | Data generation | GPT-4.1 | 37,512 |
@@ -283,7 +285,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
   | [repoDB ](https://unmtid-shinyapps.net/shiny/repodb/) | Pharmacy, Healthcare and Medical Sciences | Drug-disease relationships, Clinical trials | RAG | Classification, Text QA | 2017.03 | EN | Scientific databases | Automated | N/A | N/A | scripts | 15,648 |
   
 ### ⚗️ Chemistry
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [MOSES ](https://tdcommons.ai/generation_tasks/molgen/) | Biochemistry | SMILES | Pre-training | Raw text | 2020.07 | EN | Academic and research resources | Automated | N/A | Data generation and review | N/A | 1,936,962 |
@@ -306,14 +308,14 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | USPTO | Synthetic Chemistry | SMILES | Pre-training, SFT | Generation | 2015.07 | EN | Patent databases | Manual | N/A | Data generation and review | N/A | 1,939,253 |
 
 ### ⚛️ Physics
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [MM-PhyQA ](https://arxiv.org/pdf/2404.08704) | General Physics | High-school exams | SFT, CoT | VQA with CoT | 2024.04 | EN | Web and Internet content | Manual | N/A | Data generation and review | AFL 3.0 | 3,825 |
 | [PIQA ](https://yonatanbisk.com/piqa/) | General Physics | Text | SFT | Text QA | 2020.01 | EN | Other sources | Semi-automated | AFLite | Data generation and review | N/A | 19,838 |
 
 ### 🌌 Astronomy
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [AstroLLaVA ](https://github.com/UniverseTBD/AstroLLaVA) | Astronomy | General dialog, Astronomical images | SFT | VQA | 2025.04 | EN | Comprehensive multi-source integration | Semi-automated | N/A | Data review | GPT-4 | 29,783 |
@@ -330,7 +332,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [PAPERCLIP ](https://www.github.com/smsharma/PAPERCLIP-Hubble) | Astrophysics | synthetic conversation text, Astronomical images | SFT | Image-text | 2024.03 | EN | Academic and research resources | Automated | N/A | Data review | Mixtral-8x7B-Instruct | 31,859 |
 
 ### 🪨 Materials Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [ChEBI-20-MM ](https://huggingface.co/datasets/liupf/ChEBI-20-MM) | Materials Science | InChI, IUPAC, SELFIES, Molecular image | SFT | Text QA | 2025.01 | EN | Integration of existing datasets | Manual | N/A | Data generation and review | N/A | 29,706 |
@@ -354,7 +356,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [Materials Project ](https://next-gen.materialsproject.org/) | Materials Science | CIF | Pre-training | Raw text | 2013.07 | EN | Scientific databases | Manual | N/A | Data generation and review | N/A | 577,813 |
 
 ### 🌍 Earth Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [WeatherQA ](https://huggingface.co/datasets/ZhanxiangHua/WeatherQA_SFT) | Atmosphere | Remote sensing, Science QA | SFT | VQA | 2024.06 | EN | Scientific databases | Semi-automated | 4 | Data review | GPT-4 | 8,511 |
@@ -381,7 +383,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 
 ### 🔭 General Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
   Dataset | Domain | Modality | Purpose | Type | Release | Language | Source | Annotation  Pipeline | Human   Annotators | Human Tasks | Auto-annotation  Tools | Size |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [NaturalReasoning ](https://huggingface.co/datasets/facebook/natural_reasoning) | Multidisciplinary (incl. Physics) | Text | SFT | Text QA with CoT | 2025.02 | EN | Web and Internet content, Books and literary works, Academic and research resources | Semi-automated | N/A | Data review | LLaMA-70B | 2.8M |
@@ -393,7 +395,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
   | [MegaScience ](https://github.com/GAIR-NLP/MegaScience) | Medicine, Physics, Chemistry, Biology | Science textbooks | SFT | Text QA with CoT | 2024.08 | EN | Web and Internet content, Books and literary works, Integration of existing datasets | Semi-automated | N/A | Data review | Llama3.3-70B-Instruct, DeepSeek-V3, BGE-large-en-v1.5 | 651,840 |
 
 ## 📝 Scientific Evaluation Datasets
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 
 ### 🧬 Life Science
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
@@ -510,7 +512,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [repoDB ](https://unmtid-shinyapps.net/shiny/repodb/) | Pharmacy, Healthcare and Medical Sciences | Drug-disease relationships, Clinical trial outcomes | Expert | Classification, Text QA | 2017.03 | EN | Scientific databases | Automated | N/A | N/A | scripts | 15,648 | MCQ, Retrieval | AUROC, AUPRC, Acc |
 
 ### ⚗️ Chemistry
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [OmniGenBench ](https://github.com/yangheng95/OmniGenBench) | Biochemistry, Multi-omics | DNA sequence, RNA sequence, TF binding, \etc | N/A | Classification | 2025.05 | N/A | Integration of existing datasets, Academic and research resources | N/A | N/A | N/A | N/A | N/A | N/A | AUROC, F1, RMSE, R\textsuperscript{2} |
@@ -536,7 +538,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | USPTO | Synthetic Chemistry | SMILES | Expert | Raw text | 2015.07 | EN | Patent databases | Manual | N/A | Data generation and review | NA | 1,939,253 | Open-ended | Acc, F1, MSE, \etc |
 
 ### ⚛️ Physics
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [FSReD ](https://github.com/SJ001/AI-Feynman) | General Physics | Text | Expert | Text QA | 2019.05 | EN | Comprehensive multi-source integration | Automated | N/A | Data review | N/A | 120 | Regression | MSE, Exact Match |
@@ -558,7 +560,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [SeePhys ](https://github.com/AI4Phys/SeePhys) | Mechanics, Electromagnetism, Particle Physics, Optics=, Astrophysics, Thermodynamics, Quantum Mechanics, \etc | Text (problem statements, equations), Diagrams (physics illustrations) | Secondary school, Undergraduate, Graduate | VQA | 2025.07 | EN,ZH | Comprehensive multi-source integration | Semi-automated | N/A | Data generation and review | GPT-4o | 2,000 | Open-ended | Acc |
 
 ### 🌌 Astronomy
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [Astro-QA ](https://github.com/ACMISLab/Astro-QA) | Astronomy | Astronomy Olympiad competitions, Astronomy exams, Online encyclopedias | Undergraduate | Text QA | 2025.06 | Mixed | Comprehensive multi-source integration | Manual | 30+ | Data generation and review | N/A | 3,082 | Open-ended | DGscore, BLEU, ROUGE, chrF |
@@ -574,7 +576,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [PAPERCLIP ](https://www.github.com/smsharma/PAPERCLIP-Hubble) | Astrophysics | Synthetic conversation, Astronomical images | Expert | Text QA | 2024.03 | EN | Academic and research resources,Scientific databases | Automated | N/A | Data generation and review | Mixtral-8x7B-Instruct | 31,859 | Open-ended | Acc |
 
 ### 🪨 Materials Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [CheMatAgent ](https://github.com/AI4Chem/ChemistryAgent) | Materials Science | Scientific instruction | Expert | Text QA | 2025.06 | EN | Other sources | Manual | N/A | Data generation and review | N/A | 137 | Open-ended | Acc |
@@ -593,7 +595,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [MMSci ](https://mmsci.s3.amazonaws.com/benchmark.zip) | Materials Science, Chemistry | Science QA | Graduate | VQA | 2024.05 | EN | Academic and research resources | Manual | N/A | Data generation and review | N/A | 742,273 | Open-ended | Acc |
 
 ### 🌍 Earth Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | Domain | Modality | Level | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [ClimaQA ](https://huggingface.co/datasets/UCSD-GENIE/ClimaQA) | Atmosphere | Textbooks | Expert | Text QA | 2025.03 | EN | Books and literary works | Semi-automated |  | Data review | GPT-4o | 3,633 | MCQ, Open-ended | Acc, BLEU, \etc |
@@ -619,7 +621,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [Sydney-Captions ](https://github.com/201528014227051/RSICD_optimal) | Remote Sensing | Remote sensing | N/A | Image-text | 2016.07 | EN | Academic and research resources | Manual | N/A | Data generation | N/A | 613 | Open-ended | BLEU, METEOR, CIDEr |
 
 ### 🔭 General Science 
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Dataset | cScientific Domain | Modality | Type | Release | Language | Source | Annotation Pipeline | Human Annotators | Human Tasks | Auto-annotation Tools | Size | Level | Evaluation Type | Metrics |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [MMMU ](https://huggingface.co/datasets/MMMU/MMMU) | Science (Biology, Chemistry, Geography, Math, Physics), Health & Medicine (Basic Medical Science, Clinical Medicine, Diagnostics, Pharmacy, Public Health), Tech & Engineering (Materials, \etc) | Scientific VQA, MRI, CT, X-ray, \etc | VQA | 2023.11 | EN | Comprehensive multi-source inte- gration | Semi-automatic | 50 | Data review | Claude, GPT-4, GPT-4V | 11,550 | Expert | MCQ | Acc |
@@ -649,7 +651,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 
 ## 🤖 Scientific Models
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 ### 🌐 General-purpose
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
@@ -662,7 +664,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [Intern-S1 ](https://github.com/InternLM/Intern-S1) | General Science | 241B-A28B/8B | Qwen3-235B-A22B, Qwen3-8B | InternViT-6B, InternViT-300M | 2025.08 | ✅ |
  
  ### ⚛️ Physics
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
@@ -672,7 +674,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [L3M ](https://arxiv.org/pdf/2506.14757) | Astrophysics | 0.5B | Qwen2.5-0.5B-Instruct | N/A | 2025.06 | ❌ |
 
 ### ⚗️ Chemistry
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
 | [ChemLLM ](https://github.com/keyhsw/chemllm) | Chemistry, Pharmacy | 7B | InternLM2 | N/A | 2024.06 | ✅ |
@@ -685,7 +687,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 
 ### 🪨 Materials Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
 | [SMILES-BERT ](https://github.com/uta-smile/SMILES-BERT) | Materials Science | 30M | BERT-small | N/A | 2019.09 | ✅ |
@@ -712,7 +714,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 
 ### 🧬 Life Sciences
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
 | [ShizhenGPT ](https://github.com/FreedomIntelligence/ShizhenGPT) | Healthcare and Medical Sciences | 7B / 32B | Qwen2.5 | Qwen2.5-VL vision encoder, Whisper-large-v3 | 2025.08 | ✅ |
@@ -792,7 +794,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [MedGemma ](https://github.com/Google-Health/medgemma) | Healthcare and Medical Sciences | 4B / 27B | Gemma 3 | SigLip Image Encoder (vision) | 2025.07 | ✅ |
 
 ### 🌌 Astronomy
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
 | [AstroLLaMA-2-7B ](https://huggingface.co/UniverseTBD/astrollama) | Astronomy | 7B | Llama-2 LLM | N/A | 2023.09 | ✅ |
@@ -803,7 +805,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [AstroSage-LLaMA-3.1-70B ](https://w3id.org/UniverseTBD/AstroLLaVA) | Astronomy | 70B | Llama-3.1-70B LLM | N/A | 2025.05 | ✅ |
 
 ### 🌍 Earth Science
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 | Models | Domain | Parameters | Base LLM | Modality encoder | Release | Open-source |
 |---|---|---|---|---|---|---|
 | [OceanGPT ](https://huggingface.co/collections/zjunlp/oceangpt-664cc106358fdd9f09aa5157) | Hydrosphere, Biosphere, Lithosphere, Remote Sensing | 7B | LLama, Qwen | N/A | 2023.03 | ✅ |
@@ -821,6 +823,6 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 
 
 ## 📅 Star History  
- <a href="#top" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=open-sciencelab/Awesome-Scientific-Datasets-and-LLMs&type=Date)](https://www.star-history.com/#open-sciencelab/Awesome-Scientific-Datasets-and-LLMs&Date)
