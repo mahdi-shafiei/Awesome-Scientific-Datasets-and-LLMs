@@ -75,6 +75,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
     - [🧬 Life Sciences](#-life-sciences-1)
     - [🌌 Astronomy](#-astronomy-2)
     - [🌍 Earth Science](#-earth-science-2)
+  - [🤖 Star History](#-star-history)  
 
 ## 🧪 Scientific Pretraining, SFT, Reasoning, and Agent Datasets
 ### 🧬 Life Sciences
@@ -819,5 +820,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [GeoLLaVA-8K ](https://github.com/MiliLab/GeoLLaVA-8K) | Remote Sensing, Lithosphere | 7B | LongVA | N/A | 2025.05 | ✅ |
 
 
-
+## 📅 Star History  
  <a href="#top" style="float:right;">⬆ Back to Top</a>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=open-sciencelab/Awesome-Scientific-Datasets-and-LLMs&type=Date)](https://www.star-history.com/#open-sciencelab/Awesome-Scientific-Datasets-and-LLMs&Date)
