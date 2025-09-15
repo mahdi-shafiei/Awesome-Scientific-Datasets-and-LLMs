@@ -77,7 +77,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
     - [🧬 Life Sciences](#-life-sciences-1)
     - [🌌 Astronomy](#-astronomy-2)
     - [🌍 Earth Science](#-earth-science-2)
-  - [🤖 Star History](#-star-history)  
+  - [📅 Star History](#-star-history)
 
 ## 🧪 Scientific Pretraining, SFT, Reasoning, and Agent Datasets
 ### 🧬 Life Sciences
@@ -648,6 +648,8 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [SciKnowEval ](https://huggingface.co/datasets/hicai-zju/SciKnowEval) | Chemistry, Physics, Biology, Materials Science | Textbook QA, Literature QA, SMILES, IUPAC, Equations, \etc | Text QA, Classification, Regression | 2024.06 | EN | Comprehensive multi-source integration, Academic and research resources, Scientific databases, Integration of existing datasets | Semi-automated | N/A | Data review | GPT-4o, GPT-3.5, Claude3, LLaMA, Qwen | 70,203 | Undergraduate, Graduate, Expert | MCQ, True/False, Open-ended | Acc, F1, BLEU, ROUGE, Smith-Waterman, Tanimoto |
 | [AGIEval ](https://agi-eval.org/mvp/home) | Chemistry (GK-chemistry), Physics (GK-physics), Biology (GK-biology), Geography (GK-geography) | Textbook, Literature, SMILES, IUPAC, Equations, \etc | Text QA | 2023.09 | EN, ZH | Academic and research resources, Integration of existing datasets | Semi-automated | N/A | Data review | ChatGPT, GPT-4 | 8,062 | Secondary school, Undergraduate | MCQ, Open-ended | Acc, EM |
 | [ScienceAgentBench ](https://osu-nlp-group.github.io/ScienceAgentBench/) | Bioinformatics, Computational chemistry, Geographical information science, Psychology & cognitive neuroscience | Microscopy images, SMILES strings, Geospatial data, EEG, ECG, IMU, \etc | VQA | 2024.10 | EN | Academic and research resources, Integration of existing datasets | Manual | 9 | Data generation and review | N/A | 102 tasks | Expert | Open-ended | VER, SR, CodeBERTScore, GPT-4o Judge |
+| [MMVU](https://mmvu-benchmark.github.io/) | Natural Science, Healthcare, Engineering, Humanities and Social Science | Scientific Videos | Video QA | 2025.1 | EN | Academic and research resources | Manual | 67 | Data generation and review | N/A | 3,000 | Expert | MCQ, True/False | Acc, GPT-4o Judge |
+| [SciArena](https://allenai.org/blog/sciarena) | Natural Science, Healthcare, Engineering, Humanities and Social Science | Scientific Literature | Text QA | 2025.7 | EN | Academic and research resources | Manual | N/A | Data generation | N/A | 13K+ | Expert | Open-ended | Human Preference |
 
 
 ## 🤖 Scientific Models
