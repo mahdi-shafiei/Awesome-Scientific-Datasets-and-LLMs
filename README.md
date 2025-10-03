@@ -753,7 +753,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [ScienceAgentBench ](https://osu-nlp-group.github.io/ScienceAgentBench/) | Bioinformatics, Computational chemistry, Geographical information science, Psychology & cognitive neuroscience | Microscopy images, SMILES strings, Geospatial data, EEG, ECG, IMU, \etc | VQA | 2024.10 | EN | Academic and research resources, Integration of existing datasets | Manual | 9 | Data generation and review | N/A | 102 tasks | Expert | Open-ended | VER, SR, CodeBERTScore, GPT-4o Judge |
 | [MMVU](https://mmvu-benchmark.github.io/) | General Science, Healthcare, Engineering, Humanities and Social Science | Scientific Videos | Video QA | 2025.1 | EN | Academic and research resources | Manual | 67 | Data generation and review | N/A | 3,000 | Expert | MCQ, True/False | Acc, GPT-4o Judge |
 | [SciArena](https://allenai.org/blog/sciarena) | General Science, Healthcare, Engineering, Humanities and Social Science | Scientific Literature | Text QA | 2025.7 | EN | Academic and research resources | Manual | N/A | Data generation | N/A | 13K+ | Expert | Open-ended | Human Preference |
-
+</details>
 
 ## 🤖 Scientific Models
 
